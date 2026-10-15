@@ -35,14 +35,12 @@ int main(){
     for (int i=0;i<n;i++){
         cin >> a[i];
     }
-    // Xoa phan tu o vi tri k
     int k;
     cout << "Nhap vi tri can xoa: " << endl;
     cin >> k;
     Delete(n,k,a);
     cout << "Mang sau khi xoa: " << endl;
     printArray(n,a);
-    // Chen phan tu y vao vi tri m
     int m,y;
     cout << "Nhap vi tri m can chen:" << endl;;
     cin >> m;
